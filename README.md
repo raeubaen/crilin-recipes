@@ -33,3 +33,5 @@ Sulla macchina A, per collegarsi alla macchine B, va eseguito:
 ```
 ssh -J root@ruben-openstack -p 2222 userB@localhost
 ```
+
+Forse nel dubbio è meglio accendere un servizio autossh sulla macchina B, oltre a un team Viewer per gestire eventuali problemi
